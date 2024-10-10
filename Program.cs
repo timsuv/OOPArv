@@ -37,7 +37,8 @@ JackRussel jr = new JackRussel("dog", 2, 5, "dry food", "home, sometimes in the 
 jr.DisplayInfo();
 jr.MakeSound();
 jr.Hunt();
-jr.OutdoorDog();
+Console.WriteLine(jr.OutdoorDog());
+
 
 
 

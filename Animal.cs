@@ -152,7 +152,7 @@ namespace OOPArv
         }
         public virtual string OutdoorDog()
         {
-            return $"{Name} is a perfect dog for someone who loves to spend time outside! It's running {BoolRunningFast()} and loves to play!";
+            return $"{Breed} is a perfect dog for someone who loves to spend time outside! It's {BoolRunningFast()} and loves to play!";
         }
         public virtual string BoolRunningFast()
         {
